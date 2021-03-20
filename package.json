@@ -1,0 +1,25 @@
+{
+  "name": "@coffee-maker/root",
+  "author": {
+    "name": "Nico Greco",
+    "email": "nico.frozencoffee@gmail.com"
+  },
+  "private": true,
+  "scripts": {
+    "start": "echo \"Start...\"",
+    "build": "echo \"Build...\"",
+    "test": "echo \"Test...\""
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "react",
+    "heads up display"
+  ],
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "esbuild": "^0.9.5",
+    "lerna": "^4.0.0"
+  }
+}
