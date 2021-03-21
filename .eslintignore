@@ -1,0 +1,7 @@
+dist
+node_modules
+scripts
+
+## Any config file in root directory
+srcipts/**
+.eslintrc.js

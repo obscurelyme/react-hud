@@ -27,7 +27,8 @@
     "build:debug:watch": "yarn build:debug --watch",
     "test": "echo \"Error: run tests from root\" && exit 1",
     "copy": "cp src/index.html dist/index.html",
-    "serve": "yarn typecheck && yarn copy && esbuild src/index.tsx --bundle --sourcemap=inline --outfile=dist/app.js --define:process.env.NODE_ENV=\\\"development\\\" --servedir=dist --serve=8080"
+    "serve": "yarn typecheck && yarn copy && esbuild src/index.tsx --bundle --sourcemap=inline --outfile=dist/app.js --define:process.env.NODE_ENV=\\\"development\\\" --servedir=dist --serve=8080",
+    "lint": "eslint . --ext js,jsx,ts,tsx,json --max-warnings 0 --ignore-path ../../.eslintignore"
   },
   "dependencies": {
     "@types/react": "^17.0.3",
