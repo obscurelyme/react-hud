@@ -1,9 +1,7 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 
-const f = 5;
-
-function App() {
+function App(): React.ReactElement {
   return <h1>Hello World!</h1>;
 }
 
