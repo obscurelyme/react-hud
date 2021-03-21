@@ -8,7 +8,8 @@
   "scripts": {
     "start": "echo \"Start...\"",
     "build": "echo \"Build...\"",
-    "test": "echo \"Test...\""
+    "test": "echo \"Test...\"",
+    "serve": "node ./scripts/build.js"
   },
   "license": "Apache-2.0",
   "keywords": [
@@ -19,6 +20,7 @@
     "packages/*"
   ],
   "devDependencies": {
+    "chokidar": "^3.5.1",
     "esbuild": "^0.9.5",
     "lerna": "^4.0.0"
   }

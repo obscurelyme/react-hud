@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "baseUrl": "./src",
-    "rootDir": "./src",
+    "baseUrl": "./lib",
+    "rootDir": "./lib",
     "target": "ESNext",
     "moduleResolution": "node",
     "noEmit": true,
@@ -10,8 +10,9 @@
     "jsxFactory": "React.createElement",
     "jsxFragmentFactory": "React.Fragment",
     "jsx": "react",
-    "types": []
+    "types": [],
+    "forceConsistentCasingInFileNames": true
   },
-  "include": ["./src/*"],
+  "include": ["./lib/*"],
   "exclude": ["node_modules"]
 }
