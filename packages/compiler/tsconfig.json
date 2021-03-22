@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "target": "ESNext",
+    "baseUrl": "lib",
+    "rootDir": "lib",
+    "allowJs": true,
+    "outDir": "bin",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
+}
