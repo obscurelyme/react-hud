@@ -1,11 +1,15 @@
 # `@coffee-maker/compiler`
 
-> TODO: description
+The **Coffee Maker Compiler** is built with `tsc` and `esbuild` `tsc`will run under the hood and perform typechecking, while `esbuild` will execute highly performant compilations.
 
-## Usage
+## Installation
 
-```
-const compiler = require('@coffee-maker/compiler');
+From the root directory of this monorepo...
 
-// TODO: DEMONSTRATE API
+```shell
+yarn install
+
+lerna bootstrap
+
+yarn run coffee
 ```
